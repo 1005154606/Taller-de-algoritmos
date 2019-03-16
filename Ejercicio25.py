@@ -1,0 +1,20 @@
+i=int(input("Introduce un número de 4 cifras"))
+c1=i/1000
+cifra1=int(c1)
+c2=c1-cifra1
+c3=c2*1000
+c4=c3/100
+cifra2=int(c4)
+c5=c4-cifra2
+c6=c5*100
+c7=c6/10
+cifra3=int(c7)
+c8=c7-cifra3
+c9=c8*10
+cifra4=c9
+m1=cifra4*1000
+m2=cifra3*100
+m3=cifra2*10
+m4=cifra1
+m5=int(m1+m2+m3+m4)
+print("era",i,"ahora es",m5)

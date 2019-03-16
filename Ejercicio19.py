@@ -1,0 +1,6 @@
+x1=float(input("ingrese x1: "))
+x2=float(input("ingrese x2: "))
+y1=float(input("ingrese y1: "))
+y2=float(input("ingrese y2: "))
+x=(((x2-x1)+(y2-y1))**(1/2))
+print("la distancia es de: ",x)
